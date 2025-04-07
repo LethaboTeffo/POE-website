@@ -1,14 +1,11 @@
 <br clear="both">
 
 <h2 align="center">Hi, I'm Lethabo Teffo(ST10486755)</h2>
-- 🔭 I’m currently working on [POE website](home.html)
-
-###
 
 <br clear="both">
 
 <h3 align="center">A passionate first year IT student and a first time coder,<b>currently working on Pixy Blooms.</b></h3>
-
+        <center> [POE website](home.html)🔭</center>                                             
 
 <h2>Project Overview</h2>
 
