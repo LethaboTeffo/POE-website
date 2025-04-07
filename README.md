@@ -4,11 +4,9 @@
 
 <br clear="both">
 
-<h3 align="center">A passionate first year IT student and a first time coder. <br>
+<h3 align="center">A passionate first year IT student and a first time coder. <br> <br>
 
-##
-    
--  🔭 I’m currently working on [POE-website](https://github.com/LethaboTeffo/POE-website/blob/main/home.html)
+ - 🔭 I’m currently working on [POE-website](home.html)
 
 <h2>Project Overview</h2>
 
