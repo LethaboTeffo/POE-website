@@ -5,8 +5,8 @@
 <br clear="both">
 
 <h3 align="center">A passionate first year IT student and a first time coder,<b>currently working on Pixy Blooms.</b></h3>
-        <center> [POE website](home.html) 🔭  
-                [WEDE POE](home.html)
+        [POE website](home.html)  
+              
 
 <h2>Project Overview</h2>
 
