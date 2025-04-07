@@ -6,7 +6,7 @@
 
 <h3 align="center">A passionate first year IT student and a first time coder. <br> <br>
 
- - 🔭 I’m currently working on [POE-website](home.html)
+ - 🔭 I’m currently working on [POE website](home.html)
 
 <h2>Project Overview</h2>
 
