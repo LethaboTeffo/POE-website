@@ -6,9 +6,9 @@
 
 <h3 align="center">A passionate first year IT student and a first time coder. <br>
 
-- 🔭 I’m currently working on [WEDE POE](home.html)
-     
-              
+##
+    
+- 🔭 Pixy Blooms website link [WEDE POE](home.html)
 
 <h2>Project Overview</h2>
 
