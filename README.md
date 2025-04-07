@@ -8,7 +8,7 @@
 
 ##
     
-- 🔭 Pixy Blooms website link [WEDE POE](home.html)
+-  🔭 I’m currently working on [POE-website](https://github.com/LethaboTeffo/POE-website/blob/main/home.html)
 
 <h2>Project Overview</h2>
 
