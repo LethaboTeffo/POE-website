@@ -3,10 +3,9 @@
 <h2 align="center">Hi, I'm Lethabo Teffo(ST10486755)</h2>
 
 <br clear="both">
-
-<h3 align="center">A passionate first year IT student and a first time coder. <br> <br>
-
+<center>
  - 🔭 I’m currently working on [Pixy Blooms](home.html)
+</center>
 
 <h2>Project Overview</h2>
 
