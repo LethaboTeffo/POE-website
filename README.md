@@ -4,8 +4,7 @@
 
 <br clear="both">
 
- -- 🔭 I’m currently working on [POE-website](file:///Users/Lethabo/Documents/WEDE%20POE/home.html)
-
+ -- - 🔭 I’m currently working on [POE-website](https://github.com/LethaboTeffo/POE-website)
 
 
 <h2>Project Overview</h2>
