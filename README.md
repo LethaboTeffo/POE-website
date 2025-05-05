@@ -15,8 +15,8 @@
 
 
  <h3> Styling Enhancements</h3>
-    * Added a separate CSS page (styles.css) to organize project styling.<br>
-    * Implemented inline CSS for specific elements where necessary, in addition to the main CSS stylesheet. 
+   -Added a separate CSS page (styles.css) to organize project styling. <br>
+   -Implemented inline CSS for specific elements where necessary, in addition to the main CSS stylesheet. 
     
 <h3>Overall Layout and Navigation </h3>
 Added a logo to the header section of the website. <br>
@@ -31,14 +31,15 @@ Added a footer to the website. <br>
 Included relevant information in the footer (copyright and contact info).
         
 <h3> Homepage Updates </h3>
-    * Added buttons to the homepage to improve user navigation.<br>
-        * Implemented button styling using  CSS, including hover effects.<br>
-        * Ensured buttons are appropriately linked to other sections of the website.
+  Added buttons to the homepage to improve user navigation.<br>
+  Implemented button styling using  CSS, including hover effects.<br>
+  Ensured buttons are appropriately linked to other sections of the website.
+  
 <h3>Services Page Updates </h3>
-    * Added products to the services page.<br>
-        * Structured the product display using HTML.<br>
-        * Styled the product sections using CSS for a consistent look.<br>
-        * Included product information, such as descriptions. 
+Added products to the services page.<br>
+Structured the product display using HTML.<br>
+Styled the product sections using CSS for a consistent look.<br>
+
 <h3>Contact Form Implementation </h3>
     * Added a Contact Us form. <br>
         * Created HTML structure for contact form, <br>
@@ -51,7 +52,7 @@ Included relevant information in the footer (copyright and contact info).
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=LethaboTeffo&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
 </div>
 
-###
+
 
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
