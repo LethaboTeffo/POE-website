@@ -2,52 +2,98 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<header>
-  <a href="home.html">Home</a> ❘       
-  <a href="services.html">Services</a> ❘        
-  <a href="aboutus.html">About Us</a> ❘ 
-  <a href="FAQs.html">FAQ's</a> ❘  
-  <a href="contactus.html">Contact Us</a> |
-  <a href="services.html"> <button> <b>SHOP NOW</b> </button> </a>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 " >
 <hr>
-</header>
+<header class="navbar"> <b>
+    <nav>  <img src="POE photos/logo.png" style="height: 60px;float: left;" />
+     <a href="home.html">Home</a>   
+    <a href="services.html">Services</a>     
+    <a href="aboutus.html">About Us</a> 
+    <a href="FAQs.html">FAQ's</a> 
+    <a href="contactus.html">Contact Us</a> 
+    <a href="services.html"> <button > <b>SHOP NOW</b> </button> </a>
+      </header> </b>
+
     <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .navbar{
+            background-color: #f3eeee;
+            overflow:hidden;
+        }
+    
+        .navbar a {
+            float:left;
+            display:flex;
+            color: rgb(45, 43, 43);
+            text-align: center;
+            padding: 30px 60px;
+            text-decoration: none;
+        }
+    
+        .navbar a:hover {
+            background-color: #575454;
+            color: white
+        }
+    </style>
 </head>
 
-<div>
-     <h1>Welcome to Pixy Blooms</h1>
-     <p>Where magic blooms in every petal</p>
-     <a href="services.html">
-       <button> <b>BROWSE OUR COLLECTIONS</b></button> 
+
+<div> <br>
+    <center> <h1 style="font-family:'Times New Roman', Times, serif;
+    color: rgb(50, 50, 50);">Welcome to Pixy Blooms</h1> 
+    </center> <br> <br>
+
+ <center>
+    <img src="POE photos/homepagephoto.jpg" alt="Homepahe photo" 
+    style="width: 40%; height: 70vh; ">
+    <br><br>
+
+   
+    <body class="homepage">
+        <br> 
+       <b style="font-family:fantasy;color: #282828;"> 
+        Discover the difference that thoughtful,handcrafted flowers can make.</b> 
+         <br> <br> <br>
+    
+    <a href="services.html">
+       <button class="button"> <b>BROWSE OUR COLLECTIONS</b></button> 
      </a>
- <br><br><img src="POE photos/heroimage.jpg" width="1410" height="600">  
+ </center> 
 </div>
-<body>
- <br> 
-<b>Discover the difference that thoughtful,handcrafted flowers can make.</b>
-<br> <br> <br> <br>
 
 
-<a href="services.html"><button>Shop Full Range</button> </a>
-<br> <br>
+
+
+<br> <br> <br>
 <hr>
 
      <div class="footer-Container">
         <div class="footer">
             <div class="footer-heading footer-1">
-                <h2>FOOTER MENU</h2>
-                <a href="services.html">Services</a>
-                <a href="aboutus.html">About Us</a>
-                <a href="call:079 025 641">Tel: 079 025 6441 </a>
-                <a href="mailto:pixyblooms@gmail.com">Email: pixyblooms@gmail.com</a>      
+                <h2>About Us</h2>
+                <a href="FAQs.html">FAQs</a>
+                <a href="#">Customers</a>
+                <a href="#">Terms of Services</a> 
             </div>
-            <div class="footer-email-form">
+            <div class="footer-heading footer-2">
+                <h2>Contact Us</h2> 
+                <a href="contactus.html">Support</a>
+                <a href="contactus.html">Contact</a>
+                <a href="#">Sponsorships </a> 
+            </div>
+            <div class="footer-heading footer-3">
+                <h2>Social Media</h2>
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">YouTube</a>      
+            </div>
+            <div class="footer-email form">
                 <h2>Join our newsletter</h2>
-                <input type="email" placeholder="Enter your email address" id="footer-email">
-                <input type="submit" value="Sign Up" id="footer-email-btn">
-                <br><br> &copy: 2025 Pixy Blooms. All Rights Reserved
+                <input type="email" placeholder="Enter your email address" id="footer-email"> <br> <br>
+                <button>  <input type="submit" value="Sign Up" id="footer-email-btn"> </button>
+                <br><br> &copy 2025 Pixy Blooms. All Rights Reserved
             </div>
         </div>
     </div> 

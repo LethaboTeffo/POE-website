@@ -3,53 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <header>
-        <a href="home.html">Home</a> ❘       
-        <a href="services.html">Services</a> ❘        
-        <a href="aboutus.html">About Us</a> ❘ 
-        <a href="FAQs.html">FAQ's</a> ❘  
-        <a href="contactus.html">Contact Us</a> |
-        <a href="services.html"> <button> <b>SHOP NOW</b> </button> </a>
-        
       <hr>
-      </header>
+      <header class="navbar"> <b>
+        <nav>  <img src="POE photos/logo.png" style="height: 60px;float: left;" />
+         <a href="home.html">Home</a>   
+        <a href="services.html">Services</a>     
+        <a href="aboutus.html">About Us</a> 
+        <a href="FAQs.html">FAQ's</a> 
+        <a href="contactus.html">Contact Us</a> 
+        <a href="services.html"> <button> <b>SHOP NOW</b> </button> </a>
+          </header> </b>
+
     <title>Contact Us</title>
-</head>
-<h2>GET IN TOUCH</h2>
-<body>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .navbar{
+            background-color: #f3eeee;
+            overflow:hidden;
+        }
+    
+        .navbar a {
+            float:left;
+            display: flex;
+            color: rgb(45, 43, 43);
+            text-align: center;
+            padding: 30px 60px;
+            text-decoration: none;
+        }
+    
+        .navbar a:hover {
+            background-color: #575454;
+            color: white
+        }
+    </style>
+</head> <br> 
+ <center> <h2 style="font-family:'Cormorant Upright';font-size: 30px;">GET IN TOUCH</h2> </center> <br>
+<body>  <center>
+📞 WhatsApp / Call: 079 025 6442 <br> <br>
+📧 Email: pixyblooms@gmail.com <br> <br>
+
+📍 Based in Polokwane, South Africa 🇿🇦 <br> <br>
+💬 Available 7 days a week  </center>
+<div>
     <form action="Thank you for your response,we will contact you soon.html" method="post">
-        <label for="Name">Name:</label><br>
+       <center> <h1>CONTACT US</h1> </center>
+        <label for="Name"></label><br>
         <input type="text" id="fname" placeholder="Your name" required><br>
-        <label for="Surname">Surname:</label><br>
+        <label for="Surname"></label><br>
         <input type="text" id="fname" placeholder="Your surname" ><br>
-        <label for="Email">Email address:</label><br>
+        <label for="Cellphone number"></label><br>
+        <input type="text" id="fname" placeholder="Phone number" required><br>
+        <label for="Phone Number"></label><br>
         <input type="text" id="lname" placeholder="Your email" required> <br>
-        <label for="Message">Message</label><br>
-        <textarea name="Message" placeholder="Message" required></textarea> <br><br>
-        <input type="submit" value="Submit"> 
-
+        <label for="Message"></label><br>
+        <textarea name="Message" placeholder="Your Message" required></textarea> <br><br>
+     <center> <input type="submit" value="Submit"> </center>
       </form> 
-      
-    
+    </div>
+     
+    <br>
   <hr>
-
-     <div class="footer-Container">
-        <div class="footer">
-            <div class="footer-heading footer-1">
-                <h2>FOOTER MENU</h2>
-                <a href="services.html">Services</a>
-                <a href="aboutus.html">About Us</a>
-                <a href="call:079 025 641">Tel: 079 025 6441 </a>
-                <a href="mailto:pixyblooms@gmail.com">Email: pixyblooms@gmail.com</a>      
-            </div>
-            <div class="footer-email-form">
-                <h2>Join our newsletter</h2>
-                <input type="email" placeholder="Enter your email address" id="footer-email">
-                <input type="submit" value="Sign Up" id="footer-email-btn">
-                <br><br> &copy: 2025 Pixy Blooms. All Rights Reserved
-            </div>
+  <div class="footer-Container">
+    <div class="footer">
+        <div class="footer-heading footer-1">
+            <h2>About Us</h2>
+            <a href="FAQs.html">FAQs</a>
+            <a href="#">Customers</a>
+            <a href="#">Terms of Services</a> 
         </div>
-    </div> 
-    
+        <div class="footer-heading footer-2">
+            <h2>Contact Us</h2>
+            <a href="contactus.html">Support</a>
+            <a href="contactus.html">Contact</a>
+            <a href="#">Sponsorships </a> 
+        </div>
+        <div class="footer-heading footer-3">
+            <h2>Social Media</h2>
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">YouTube</a>      
+        </div>
+        <div class="footer-email form">
+            <h2>Join our newsletter</h2> 
+            <input type="email" placeholder="Enter your email address" id="footer-email"> <br> <br>
+          <button>  <input type="submit" value="Sign Up" id="footer-email-btn"> </button>
+            <br><br> &copy  2025 Pixy Blooms. All Rights Reserved
+        </div>
+    </div>
+</div>
 </body>
 </html>

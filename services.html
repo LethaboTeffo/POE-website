@@ -3,44 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <header>
-        <a href="home.html">Home</a> ❘       
-        <a href="services.html">Services</a> ❘        
-        <a href="aboutus.html">About Us</a> ❘ 
-        <a href="FAQs.html">FAQ's</a> ❘  
-        <a href="contactus.html">Contact Us</a> |
+    
+      <header class="navbar"> <b>
+        <nav>  <img src="POE photos/logo.png" style="height: 60px;float: left;" />
+         <a href="home.html">Home</a>   
+        <a href="services.html">Services</a>     
+        <a href="aboutus.html">About Us</a> 
+        <a href="FAQs.html">FAQ's</a> 
+        <a href="contactus.html">Contact Us</a> 
         <a href="services.html"> <button> <b>SHOP NOW</b> </button> </a>
-        
-      <hr>
-      </header>
+          </header> </b>
+    
     <title>Services</title>
+    <link rel="stylesheet" href="style.css">
+    <center> <br> <h1 > Our Product Gallery</h1> </center> <br>
+    <style>
+        .navbar{
+            background-color: #f3eeee;
+            overflow:hidden;
+        }
+    
+        .navbar a {
+            float:left;
+            display: flex;
+            color: rgb(45, 43, 43);
+            text-align: center;
+            padding: 30px 60px;
+            text-decoration: none;
+        }
+    
+        .navbar a:hover {
+            background-color: #575454;
+            color: white
+        }
+    </style>
 </head>
-<h1>Products</h1>
-<body>
-  <img src="POE photos/product1.jpeg"> <br> <br>
-  <img src="POE photos/product2.jpg"> <br> <br>
-  <img src="POE photos/product3.jpeg"> <br> <br>
-  <img src="POE photos/product4.jpeg"> <br> <br>
-  <img src="POE photos/product5.jpeg"> <br>
-  <hr>
+<body> <br>
 
-     <div class="footer-Container">
-        <div class="footer">
-            <div class="footer-heading footer-1">
-                <h2>FOOTER MENU</h2>
-                <a href="services.html">Services</a>
-                <a href="aboutus.html">About Us</a>
-                <a href="call:079 025 641">Tel: 079 025 6441 </a>
-                <a href="mailto:pixyblooms@gmail.com">Email: pixyblooms@gmail.com</a>      
-            </div>
-            <div class="footer-email-form">
-                <h2>Join our newsletter</h2>
-                <input type="email" placeholder="Enter your email address" id="footer-email">
-                <input type="submit" value="Sign Up" id="footer-email-btn">
-                <br><br> &copy: 2025 Pixy Blooms. All Rights Reserved
-            </div>
+<style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto auto auto;
+      grid-template-rows: 300px 300px 300px 90;  
+      gap: 10px;
+      background-color: rgb(218, 145, 182);
+      padding:7px;
+    }
+    .grid-container div {
+      background-color:#b5b5b5;
+      padding: none;
+      text-align: center;
+    }
+    .grid-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    </style>
+
+    <div class="grid-container">
+      <div><img src="POE photos/product1.jpg" alt="Product 1"></div>
+      <div><img src="POE photos/product2.jpg" alt="Product 2"></div>
+      <div><img src="POE photos/product3.jpg" alt="Product 3"></div>
+      <div><img src="POE photos/product4.jpg" alt="Product 4"></div>
+      <div><img src="POE photos/product5.jpg" alt="Product 5"></div>
+      <div><img src="POE photos/product6.jpg" alt="Product 6"></div>
+      <div><img src="POE photos/product7.jpg" alt="Product 7"></div>
+      <div><img src="POE photos/product8.jpg" alt="Product 8"></div>
+      <div><img src="POE photos/product9.jpg" alt="Product 9"></div>
+      <div><img src="POE photos/product10.jpg" alt="Product 10"></div>
+      <div><img src="POE photos/product11.jpg" alt="Product 11"></div>
+      <div><img src="POE photos/product12.jpg" alt="Product 12"></div>
+      <div><img src="POE photos/product13.jpg" alt="Product 13"></div>
+      <div><img src="POE photos/product14.jpg" alt="Product 14"></div>
+      <div><img src="POE photos/product15.jpg" alt="Product 15"></div>
+    
+    </div> <br> <br> <br> <br>
+    
+
+  <div class="footer-Container">
+    <div class="footer">
+        <div class="footer-heading footer-1">
+            <h2>About Us</h2>
+            <a href="FAQs.html">FAQs</a>
+            <a href="#">Customers</a>
+            <a href="#">Terms of Services</a> 
         </div>
-    </div> 
+        <div class="footer-heading footer-2">
+            <h2>Contact Us</h2>
+            <a href="contactus.html">Support</a>
+            <a href="contactus.html">Contact</a>
+            <a href="#">Sponsorships </a> 
+        </div>
+        <div class="footer-heading footer-3">
+            <h2>Social Media</h2>
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">YouTube</a>      
+        </div>
+        <div class="footer-email form">
+            <h2>Join our newsletter</h2>
+            <input type="email" placeholder="Enter your email address" id="footer-email"> <br> <br>
+            <button>  <input type="submit" value="Sign Up" id="footer-email-btn"> </button>
+            <br><br> &copy 2025 Pixy Blooms. All Rights Reserved
+        </div>
+    </div>
+</div>
    
 </body>
+
 </html>
