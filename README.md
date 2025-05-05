@@ -3,9 +3,9 @@
 <h2 align="center">Hi, I'm Lethabo Teffo(ST10486755)</h2>
 
 <br clear="both">
-<center>
+
  - 🔭 I’m currently working on [Pixy Blooms](home.html)
-</center>
+
 
 <h2>Project Overview</h2>
 
