@@ -44,7 +44,7 @@ Styled the product sections using CSS for a consistent look.<br>
     * Added a Contact Us form. <br>
         * Created HTML structure for contact form, <br>
         * Styled the form using  CSS.
-###
+
 
 <br clear="both">
 
